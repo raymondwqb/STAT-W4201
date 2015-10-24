@@ -2,7 +2,8 @@
 
 Create by Qianbo Wang
 
-This folder contains the file of homeworks on STAT W4201, advanced data analysis, by professor Alem.
+This folder contains the file of homeworks on STAT W4201, Advanced Data Analysis    
+By Professor [Demissie Alemayehu](http://www.stat.columbia.edu/~alem/) in Columbia University. 
 
 Each folder contains: 
 > 1. a tex file, which is the homework answers by LaTeX.    
