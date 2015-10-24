@@ -1,0 +1,36 @@
+
+	Fisher's Exact Test for Count Data
+
+data:  matrix(c(38, 52, 26, 61), 2, 2, byrow = T)
+p-value = 0.1174
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.8810919 3.3523133
+sample estimates:
+odds ratio 
+  1.709275 
+
+
+	Fisher's Exact Test for Count Data
+
+data:  matrix(c(65, 147, 94, 153), 2, 2, byrow = T)
+p-value = 0.1154
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.478183 1.081004
+sample estimates:
+odds ratio 
+ 0.7202373 
+
+
+	Fisher's Exact Test for Count Data
+
+data:  matrix(c(30, 42, 56, 102), 2, 2, byrow = T)
+p-value = 0.3811
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 0.7036234 2.3884921
+sample estimates:
+odds ratio 
+  1.299486 
+

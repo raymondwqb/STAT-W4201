@@ -1,0 +1,12 @@
+
+	Shapiro-Wilk normality test
+
+data:  Blue
+W = 0.9901, p-value = 0.6745
+
+
+	Shapiro-Wilk normality test
+
+data:  Orange
+W = 0.9886, p-value = 0.5557
+

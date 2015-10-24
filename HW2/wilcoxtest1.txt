@@ -1,0 +1,7 @@
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  Blue and Orange
+W = 3378.5, p-value = 7.469e-05
+alternative hypothesis: true location shift is not equal to 0
+

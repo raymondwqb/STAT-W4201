@@ -1,0 +1,12 @@
+
+	Pearson's product-moment correlation
+
+data:  Blue and Orange
+t = 22.6316, df = 98, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.8777160 0.9429194
+sample estimates:
+      cor 
+0.9161846 
+
