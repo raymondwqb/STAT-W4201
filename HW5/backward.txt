@@ -1,0 +1,12 @@
+
+Call:  glm(formula = medv ~ crim + zn + rm + age + tax, data = data)
+
+Coefficients:
+(Intercept)         crim           zn           rm          age  
+ -19.713176    -0.131852     0.022947     7.625253    -0.024121  
+        tax  
+  -0.009323  
+
+Degrees of Freedom: 505 Total (i.e. Null);  500 Residual
+Null Deviance:	    42720 
+Residual Deviance: 17860 	AIC: 3253
