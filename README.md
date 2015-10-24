@@ -12,5 +12,11 @@ Each folder contains:
 
 > 3. some png graphs, which are the plots of data, or test, by R-ggplot2.
 
+> 4. a R file, which contains code in R.
+
 > 4. a pdf file, which is the main version of homework.
+
+> 5. a csv file, which contains the data (if applicable).
+
+> 6. a sas file, which contains code in SAS (if applicable). 
 
