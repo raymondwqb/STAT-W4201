@@ -8,11 +8,11 @@ They were also measured on day 21. There were four groups of chicks on different
 
 ### Problem 1
 #### Consider comparing Diet Levels 1 and 4 on Day 21.
-> (a). Determine whether there is association between Diet and Weight, 
+> - (a). Determine whether there is association between Diet and Weight, 
 using logistic regression, without adjusting for Birth Weight. 
 Interpret what the estimated parameters denote.
 
-> (b). Repeat (a) adjusting for Birth Weight. Interpret what the estimated parameters denote.
+> - (b). Repeat (a) adjusting for Birth Weight. Interpret what the estimated parameters denote.
 
 ### Problem 2
 > Repeat 1 for all 4 Diet Levels.
