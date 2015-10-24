@@ -1,0 +1,11 @@
+
+Call:
+lm(formula = medv ~ crim + zn + indus + nox + rm + age + tax, 
+    data = Boston)
+
+Coefficients:
+(Intercept)         crim           zn        indus          nox  
+ -19.615259    -0.132538     0.022103    -0.014980     0.010643  
+         rm          age          tax  
+   7.606508    -0.023198    -0.009006  
+

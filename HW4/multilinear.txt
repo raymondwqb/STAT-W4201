@@ -1,0 +1,26 @@
+
+Call:
+lm(formula = medv ~ crim + zn + indus + nox + rm + age + tax, 
+    data = Boston)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-16.625  -3.161  -0.833   2.089  41.042 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -19.615259   3.221482  -6.089 2.27e-09 ***
+crim         -0.132538   0.038482  -3.444 0.000621 ***
+zn            0.022103   0.014823   1.491 0.136547    
+indus        -0.014980   0.072282  -0.207 0.835909    
+nox           0.010643   4.230468   0.003 0.997994    
+rm            7.606508   0.418424  18.179  < 2e-16 ***
+age          -0.023198   0.014893  -1.558 0.119964    
+tax          -0.009006   0.002662  -3.384 0.000772 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.989 on 498 degrees of freedom
+Multiple R-squared:  0.5818,	Adjusted R-squared:  0.576 
+F-statistic: 98.99 on 7 and 498 DF,  p-value: < 2.2e-16
+

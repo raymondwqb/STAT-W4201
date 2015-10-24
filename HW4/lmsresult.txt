@@ -1,0 +1,12 @@
+Call:
+lqs.formula(formula = medv ~ crim + zn + indus + nox + rm + age + 
+    tax, data = Boston, method = "lms")
+
+Coefficients:
+(Intercept)         crim           zn        indus          nox  
+ -27.988943    -0.710493     0.025242     0.022510     3.699771  
+         rm          age          tax  
+   8.029181    -0.040069     0.001258  
+
+Scale estimates 3.623 3.344 
+
