@@ -1,0 +1,6 @@
+
+	Bartlett test of homogeneity of variances
+
+data:  sub_day18$weight and sub_day18$Diet
+Bartlett's K-squared = 3.576, df = 3, p-value = 0.311
+

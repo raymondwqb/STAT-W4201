@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  weight by Diet
+Kruskal-Wallis chi-squared = 10.6234, df = 3, p-value = 0.01395
+
