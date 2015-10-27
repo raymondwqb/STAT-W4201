@@ -1,0 +1,5 @@
+3 x 1 sparse Matrix of class "dgCMatrix"
+                     1
+(Intercept) 39.9300576
+BirthWeight -0.9754835
+Group       -0.8577307

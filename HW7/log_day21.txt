@@ -1,0 +1,23 @@
+
+Call:
+glm(formula = Weight ~ Group, family = "binomial", data = sub_day21)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.2735  -0.6444  -0.6444   1.0842   1.8297  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)  
+(Intercept)   0.2231     0.6708   0.333   0.7394  
+Group        -1.6895     0.9275  -1.822   0.0685 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 31.343  on 24  degrees of freedom
+Residual deviance: 27.808  on 23  degrees of freedom
+AIC: 31.808
+
+Number of Fisher Scoring iterations: 4
+
