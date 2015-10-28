@@ -369,7 +369,7 @@ sink('/Users/raymond/Drive/STAT W4201/HW7/log_day21_all_adjust.txt')
 summary(log_day21_all_adjust)
 sink()
 
-#L-1 regularized logistic regression with Diet and Weight on day 21 without adjust for Birth Weight
+#L-1 regularized logistic regression with Diet and Weight on day 21 with adjust for Birth Weight
 library(glmnet)
 data<-as.matrix(subset(sub_day21,select = c("BirthWeight","Group")))
 colnames(data)<-c("BirthWeight","Group")
