@@ -6,6 +6,8 @@ Consider the ChickWeightdata in R.
 The body weights of the chicks were measured at birth (i.e., time=0) and every second day thereafter until day 20. 
 They were also measured on day 21. There were four groups of chicks on different protein diets.
 
+Categorize ‘weight’ as a binary variable, with Weight Group = 1 (or Low), if weight > 215 mg, and 0, Otherwise.
+
 ### Problem 1
 #### Consider comparing Diet Levels 1 and 4 on Day 21.
 > (a). Determine whether there is association between Diet and Weight, 
