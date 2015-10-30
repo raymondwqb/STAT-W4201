@@ -100,7 +100,7 @@ Construct a logistic regression model with adjusting for Birth Weight with Weigh
 \left \{
   \begin{tabular}{cc}
   1 &  $\text{Diet}=1$\\
-  0 &  $\text{Diet} \neq 1$ \\
+  0 &  $\text{Diet}=4 $ \\
   \end{tabular}
 \right.
 \]
@@ -119,7 +119,7 @@ And for Diet group 4, the model is:
 
 There are two parameters here, intercept $\beta_0$, and coefficient $\beta_1$ on Diet group.
 \begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left]
-\item[\textbullet] $\beta_0$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 4, i.e., the odds ratio of $\text{Weight}>215$  for Diet group 4 is $e^0.2231$.
+\item[\textbullet] $\beta_0$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 4, i.e., the odds ratio of $\text{Weight}>215$  for Diet group 4 is $e^{0.2231}$.
 \item[\textbullet] $\beta_1$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 1 relative to Diet Group 4, i.e., odds ratio of $\text{Weight}>215$  for Diet group 1 relative to Diet Group 4 is $e^{-1.6895}$,
 and also the odds ratio of $\text{Weight}>215$ for Diet group 1 is $e^{-1.4664}$.\\
 
@@ -303,7 +303,7 @@ Since $\text{p-value}$ for the intercept, Group1, Group2, Group3 and BirthWeight
 \end{enumerate}
 
 \section*{Problem 3}
-\textbf{Repeat 1 using the L-1 regularized logistic regression.}
+\textbf{Repeat 1 using the L-1 regularized logistic regression.}\\
 
 We should use BirthWeight and Group for L-1 logistic regression. The cross validation plot of choosing best gamma is as follows:
 \begin{center}
