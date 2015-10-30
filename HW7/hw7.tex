@@ -217,7 +217,7 @@ Logistic Regression without adjust result
 The model is:
 \[ \text{logit(p)} = 0.2231-1.6895*\text{Group1}-0.2231*\text{Group2}+1.1632*\text{Group3}\]
 So for Diet group 1, the model is:
-\[ \text{logit(p)} = 0.2231-1.6895=-0.4664\]
+\[ \text{logit(p)} = 0.2231-1.6895=-1.4664\]
 And for Diet group 2, the model is:
 \[\text{logit(p)} = 0.2231-0.2231=0\]
 And for Diet group 3, the model is:
@@ -228,7 +228,7 @@ And for Diet group 4, the model is:
 There are four parameters here, intercept $\beta_0$, and coefficient $\beta_1$ on Diet group1, coefficient $\beta_2$ on Diet group2, coefficient $\beta_3$ on Diet group3.
 \begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left]
 \item[\textbullet] $\beta_0$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 4, i.e., the odds ratio of $\text{Weight}>215$ for Diet group 4 is $e^{0.2231}$.
-\item[\textbullet] $\beta_1$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 1 relative to Diet Group 4, i.e., odds ratio of $\text{Weight}>215$ for Diet group 1 relative to Diet Group 4 is $e^{-1.6895}$, and odds ratio of $\text{Weight}>215$ for Diet group 1 is $e^{-0.4664}$.
+\item[\textbullet] $\beta_1$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 1 relative to Diet Group 4, i.e., odds ratio of $\text{Weight}>215$ for Diet group 1 relative to Diet Group 4 is $e^{-1.6895}$, and odds ratio of $\text{Weight}>215$ for Diet group 1 is $e^{-1.4664}$.
 \item[\textbullet] $\beta_2$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 2 relative to Diet Group 4, i.e., odds ratio of $\text{Weight}>215$ for Diet group 2 relative to Diet Group 4 is $e^{-0.2231}$, and odds ratio of $\text{Weight}>215$ for Diet group 2 is $e^{0}=1$.
 \item[\textbullet] $\beta_3$ denotes the log odds ratio of $\text{Weight}>215$ for Diet group 3 relative to Diet Group 4, i.e., odds ratio of $\text{Weight}>215$ for Diet group 3 relative to Diet Group 4 is $e^{1.1632}$, and odds ratio of $\text{Weight}>215$ for Diet group 3 is $e^{1.3863}$.\\
 
