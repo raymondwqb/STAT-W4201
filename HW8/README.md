@@ -24,7 +24,7 @@ The lengths of observation periods are quite different, as indicated in the last
 ### Problem 3
 > Repeat 2(a) using the glmnet package and comment on the results.
 
-### Display 22.16
+### Display 22.16 (First 6 of 91 rows)
 | System | Operator | Value | Size | Mode | Failures | Time |
 |:------:|:--------:|:-----:|:----:|:----:|:--------:|:----:|
 |1       |3         |4      |3     |1     |2         |4     |
@@ -33,4 +33,5 @@ The lengths of observation periods are quite different, as indicated in the last
 |2       |1         |2      |2     |2     |0         |2     |
 |2       |1         |3      |2     |1     |0         |2     |
 |2       |1         |3      |2     |2     |0         |1     |
+|...     |...       |...    |...   |...   |...       |...   |
 
