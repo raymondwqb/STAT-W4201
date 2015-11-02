@@ -9,11 +9,11 @@
 #### Consider the Valve characteristics data (Display 22.16, Ramsey and Schafer, 2nd Ed).
 Display 22.16 shows characteristics and numbers of failures observed in valve types from one pressurized water reactor.
 There are five explanatory factors:
-- system (1 D containment, 2 D nuclear, 3 D power conversion, 4 D safety, 5 D process auxiliary);
-- operator type (1 D air, 2 D solenoid, 3 D motor-driven, 4 D manual); 
-- valve type (1 D ball, 2 D butterfly, 3 D diaphragm, 4 D gate, 5 D globe, 6 D directional control); 
-- head size (1 D less than 2 inches, 2 D 2–10 inches, 3 D 10–30 inches);
-- operation mode (1 D normally closed, 2 D normally open). 
+- system (1 = containment, 2 = nuclear, 3 = power conversion, 4 = safety, 5 = process auxiliary);
+- operator type (1 = air, 2 = solenoid, 3 = motor-driven, 4 = manual); 
+- valve type (1 = ball, 2 = butterfly, 3 = diaphragm, 4 = gate, 5 = globe, 6 = directional control); 
+- head size (1 = less than 2 inches, 2 = 2–10 inches, 3 = 10–30 inches);
+- operation mode (1 = normally closed, 2 = normally open). 
 
 The lengths of observation periods are quite different, as indicated in the last column, time. Using an offset for log of observation time, identify the factors associated with large numbers of valve failures.
 
