@@ -1,0 +1,18 @@
+Analysis of Deviance Table
+
+Model: poisson, link: log
+
+Response: Failures
+
+Terms added sequentially (first to last)
+
+
+         Df Deviance Resid. Df Resid. Dev Pr(>Chi)    
+NULL                        89        386             
+System    4     22.7        85        363  0.00015 ***
+Operator  3      5.3        82        357  0.14882    
+Valve     5    109.9        77        248  < 2e-16 ***
+Size      2     50.7        75        197  9.6e-12 ***
+Mode      1      1.2        74        196  0.27084    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

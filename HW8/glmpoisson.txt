@@ -1,0 +1,51 @@
+
+Call:  glm(formula = Failures ~ System + Operator + Valve + Size + Mode, 
+    family = "poisson", data = Nuclear, offset = log(Time))
+
+Coefficients:
+(Intercept)      System2      System3      System4      System5    Operator2    Operator3    Operator4       Valve2  
+    -3.7687       0.9156       1.0188       1.2231       0.3329       0.7044      -1.1926      -2.4723       0.1853  
+     Valve3       Valve4       Valve5       Valve6        Size2        Size3        Mode2  
+     0.6067       2.9589       1.7932       1.0089      -0.0122       1.6146      -0.2093  
+
+Degrees of Freedom: 89 Total (i.e. Null);  74 Residual
+Null Deviance:	    386 
+Residual Deviance: 196 	AIC: 332
+
+Call:
+glm(formula = Failures ~ System + Operator + Valve + Size + Mode, 
+    family = "poisson", data = Nuclear, offset = log(Time))
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-3.189  -1.007  -0.436   0.336   5.314  
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -3.7687     0.8194   -4.60  4.2e-06 ***
+System2       0.9156     0.5318    1.72   0.0852 .  
+System3       1.0188     0.5055    2.02   0.0439 *  
+System4       1.2231     0.5552    2.20   0.0276 *  
+System5       0.3329     0.5841    0.57   0.5687    
+Operator2     0.7044     0.5667    1.24   0.2139    
+Operator3    -1.1926     0.2485   -4.80  1.6e-06 ***
+Operator4    -2.4723     0.4766   -5.19  2.1e-07 ***
+Valve2        0.1853     0.7611    0.24   0.8076    
+Valve3        0.6067     0.7811    0.78   0.4373    
+Valve4        2.9589     0.6001    4.93  8.2e-07 ***
+Valve5        1.7932     0.6104    2.94   0.0033 ** 
+Valve6        1.0089     0.9301    1.08   0.2780    
+Size2        -0.0122     0.2834   -0.04   0.9657    
+Size3         1.6146     0.3210    5.03  4.9e-07 ***
+Mode2        -0.2093     0.1903   -1.10   0.2714    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 385.53  on 89  degrees of freedom
+Residual deviance: 195.68  on 74  degrees of freedom
+AIC: 332
+
+Number of Fisher Scoring iterations: 7
+

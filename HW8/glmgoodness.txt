@@ -1,0 +1,4 @@
+Goodness of Fit Test 
+ 
+res.deviance   df   p.value
+195.67809951   74   1.00000000

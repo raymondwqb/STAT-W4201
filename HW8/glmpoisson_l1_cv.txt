@@ -1,0 +1,18 @@
+16 x 1 sparse Matrix of class "dgCMatrix"
+                   1
+(Intercept) -1.42488
+System2      .      
+System3      .      
+System4      .      
+System5      .      
+Operator2    .      
+Operator3    .      
+Operator4    .      
+Valve2       .      
+Valve3       .      
+Valve4       0.73104
+Valve5       .      
+Valve6       .      
+Size2        .      
+Size3        0.55313
+Mode2        .      
