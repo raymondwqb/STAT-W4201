@@ -145,7 +145,7 @@ When other explanatory variables are fixed, then Mode 2 will cause $e^{-0.20}=0.
 \small{Goodness of fit test Result}
 \VerbatimInput{glmgoodness.txt}
 \end{center}
-From result of Deviance Goodness of Fit Test, the p-value is approximate to 1 which means that either the model is adequate or that insufficient data are available to detect inadequacies.\\
+From result of Deviance Goodness of Fit Test, though most of the parameters' coefficients are significant, however, the p-value is approximate 0, which means this model doesn't fit well, and is not adequate. The lack of fit maybe due to missing data, covariates or overdispersion.\\
 
 And the Chi-square Anova Table of log-linear regression result is as follows:
 \begin{center}
@@ -204,7 +204,7 @@ summary(glmpoisson)
 sink()
 
 # goodness of fit test
-Goodness_of_Fit<-cbind(res.deviance = sprintf("%.8f",glmpoisson$deviance),df = glmpoisson$df.residual, p.value = sprintf("%.8f",(1-pchisq(glmpoisson$deviance,glmpoisson$df.residual,lower.tail = FALSE))))
+Goodness_of_Fit<-cbind(res.deviance = sprintf("%.8f",glmpoisson$deviance),df = glmpoisson$df.residual, p.value = sprintf("%.8f",(1-pchisq(glmpoisson$deviance,glmpoisson$df.residual))))
 
 sink("/Users/raymond/Drive/STAT W4201/HW8/glmgoodness.txt")
 cat("Goodness of Fit Test \n \n")

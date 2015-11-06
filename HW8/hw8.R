@@ -23,7 +23,7 @@ summary(glmpoisson)
 sink()
 
 # goodness of fit test
-Goodness_of_Fit<-cbind(res.deviance = sprintf("%.8f",glmpoisson$deviance),df = glmpoisson$df.residual, p.value = sprintf("%.8f",(1-pchisq(glmpoisson$deviance,glmpoisson$df.residual,lower.tail = FALSE))))
+Goodness_of_Fit<-cbind(res.deviance = sprintf("%.8f",glmpoisson$deviance),df = glmpoisson$df.residual, p.value = sprintf("%.8f",(1-pchisq(glmpoisson$deviance,glmpoisson$df.residual))))
 
 sink("/Users/raymond/Drive/STAT W4201/HW8/glmgoodness.txt")
 cat("Goodness of Fit Test \n \n")
