@@ -31,4 +31,3 @@ For the following, consider survival to be “Days until Death”, i.e., etype=2
 ### Problem 5
 
 > Give a 95% confidence interval for the hazard rate in 4.
-> Repeat 1 using the L-1 regularized logistic regression.
