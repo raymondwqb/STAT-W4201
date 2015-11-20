@@ -1,0 +1,23 @@
+Call:
+coxph(formula = Surv(time, status) ~ rx_d + age + sex, data = survival_colon)
+
+  n= 614, number of events= 284 
+
+          coef exp(coef)  se(coef)      z Pr(>|z|)   
+rx_d  0.344635  1.411474  0.120079  2.870   0.0041 **
+age   0.000920  1.000921  0.005119  0.180   0.8574   
+sex  -0.043126  0.957791  0.118948 -0.363   0.7169   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+     exp(coef) exp(-coef) lower .95 upper .95
+rx_d    1.4115     0.7085    1.1155     1.786
+age     1.0009     0.9991    0.9909     1.011
+sex     0.9578     1.0441    0.7586     1.209
+
+Concordance= 0.549  (se = 0.018 )
+Rsquare= 0.014   (max possible= 0.996 )
+Likelihood ratio test= 8.38  on 3 df,   p=0.0388
+Wald test            = 8.29  on 3 df,   p=0.04033
+Score (logrank) test = 8.37  on 3 df,   p=0.03892
+

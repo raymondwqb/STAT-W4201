@@ -1,0 +1,5 @@
+Call: survfit(formula = Surv(time, status) ~ rx, data = survival_colon)
+
+             n events median 0.95LCL 0.95UCL
+rx=Lev     310    161   2152    1540      NA
+rx=Lev+5FU 304    123     NA    2725      NA

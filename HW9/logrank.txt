@@ -1,0 +1,8 @@
+Call:
+survdiff(formula = Surv(time, status) ~ rx, data = survival_colon)
+
+             N Observed Expected (O-E)^2/E (O-E)^2/V
+rx=Lev     310      161      137      4.24      8.21
+rx=Lev+5FU 304      123      147      3.95      8.21
+
+ Chisq= 8.2  on 1 degrees of freedom, p= 0.00417 
